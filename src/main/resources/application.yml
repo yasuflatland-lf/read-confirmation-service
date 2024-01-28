@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      uri:
+      database: 'lr'
+      host: 127.0.0.1
+      username: name
+      password: pwd
+      port: 27017
+
+springdoc:
+  version: '@springdoc.version@'
+  swagger-ui:
+    use-root-path: true

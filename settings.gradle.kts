@@ -1,1 +1,1 @@
-rootProject.name = "read.confirmation"
+rootProject.name = "read-confirmation-service"
